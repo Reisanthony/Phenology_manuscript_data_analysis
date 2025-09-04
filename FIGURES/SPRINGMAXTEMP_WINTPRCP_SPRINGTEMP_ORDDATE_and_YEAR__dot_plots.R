@@ -551,7 +551,8 @@ for (i in 1:length(mus)) {
     angle = 180,
     code = 3,
     length = 0.05,
-    col = "darkorange"
+    col = "darkorange",
+    lwd = 15
   )
 }
 
@@ -560,11 +561,11 @@ axis(2, at = 1:length(mus), labels = c("WA      ", "SV      ", "LC      ", "DP  
 # Vertical line at point 0 on the x-axis
 abline(v = 0, col = "grey", lty = 1)
 
-points(wb1[1,],jitter(rep(1,wsp), factor = 3),col=alpha(c("gray60","dodgerblue"),.3)[cc1_b1],pch=19, cex= sps)
-points(sb1[1,],jitter(rep(2,ssp), factor = 3),col=alpha(c("gray60","dodgerblue"),.3)[cc2_b1],pch=19, cex= sps)
-points(lb1[1,],jitter(rep(3,lsp), factor = 3),col=alpha(c("gray60","dodgerblue"),.3)[cc3_b1],pch=19, cex= sps)
-points(db1[1,],jitter(rep(4,dsp), factor = 3),col=alpha(c("gray60","dodgerblue"),.3)[cc4_b1],pch=19, cex= sps)
-points(cb1[1,],jitter(rep(5,csp), factor = 3),col=alpha(c("gray60","dodgerblue"),.3)[cc5_b1],pch=19, cex= sps)
+points(wb1[1,],jitter(rep(1,wsp), factor = 3),col=alpha(c("gray60","dodgerblue"),.2)[cc1_b1],pch=19, cex= sps)
+points(sb1[1,],jitter(rep(2,ssp), factor = 3),col=alpha(c("gray60","dodgerblue"),.2)[cc2_b1],pch=19, cex= sps)
+points(lb1[1,],jitter(rep(3,lsp), factor = 3),col=alpha(c("gray60","dodgerblue"),.2)[cc3_b1],pch=19, cex= sps)
+points(db1[1,],jitter(rep(4,dsp), factor = 3),col=alpha(c("gray60","dodgerblue"),.2)[cc4_b1],pch=19, cex= sps)
+points(cb1[1,],jitter(rep(5,csp), factor = 3),col=alpha(c("gray60","dodgerblue"),.2)[cc5_b1],pch=19, cex= sps)
 
 #title(main = "(c) Effect of spring max temperature on peak", cex.main = tis)
 mtext("(a) Spring max temperature (MO)", side = 3, line = 0.3, adj = 0, cex = tis)
@@ -599,7 +600,8 @@ for (i in 1:length(mus)) {
     angle = 180,
     code = 3,
     length = 0.05,
-    col = "darkorange"
+    col = "darkorange",
+    lwd = 15
   )
 }
 
@@ -608,11 +610,11 @@ axis(2, at = 1:length(mus), labels = c("WA      ", "SV      ", "LC      ", "DP  
 # Vertical line at point 0 on the x-axis
 abline(v = 0, col = "grey", lty = 1)
 
-points(wb2[1,],jitter(rep(1,wsp), factor = 3),col=alpha(c("gray60","dodgerblue"),.3)[cc1_b2],pch=19, cex= sps)
-points(sb2[1,],jitter(rep(2,ssp), factor = 3),col=alpha(c("gray60","dodgerblue"),.3)[cc2_b2],pch=19, cex= sps)
-points(lb2[1,],jitter(rep(3,lsp), factor = 3),col=alpha(c("gray60","dodgerblue"),.3)[cc3_b2],pch=19, cex= sps)
-points(db2[1,],jitter(rep(4,dsp), factor = 3),col=alpha(c("gray60","dodgerblue"),.3)[cc4_b2],pch=19, cex= sps)
-points(cb2[1,],jitter(rep(5,csp), factor = 3),col=alpha(c("gray60","dodgerblue"),.3)[cc5_b2],pch=19, cex= sps)
+points(wb2[1,],jitter(rep(1,wsp), factor = 3),col=alpha(c("gray60","dodgerblue"),.2)[cc1_b2],pch=19, cex= sps)
+points(sb2[1,],jitter(rep(2,ssp), factor = 3),col=alpha(c("gray60","dodgerblue"),.2)[cc2_b2],pch=19, cex= sps)
+points(lb2[1,],jitter(rep(3,lsp), factor = 3),col=alpha(c("gray60","dodgerblue"),.2)[cc3_b2],pch=19, cex= sps)
+points(db2[1,],jitter(rep(4,dsp), factor = 3),col=alpha(c("gray60","dodgerblue"),.2)[cc4_b2],pch=19, cex= sps)
+points(cb2[1,],jitter(rep(5,csp), factor = 3),col=alpha(c("gray60","dodgerblue"),.2)[cc5_b2],pch=19, cex= sps)
 
 #title(main = "(f) Effect of winter precipitation on peak", cex.main = tis)
 mtext("(b) Winter precipitation (MO)", side = 3, line = 0.3, adj = 0, cex = tis)
@@ -647,7 +649,8 @@ for (i in 1:length(mus)) {
     angle = 180,
     code = 3,
     length = 0.05,
-    col = "darkorange"
+    col = "darkorange",
+    lwd = 15
   )
 }
 
@@ -656,11 +659,11 @@ axis(2, at = 1:length(mus), labels = c("WA      ", "SV      ", "LC      ", "DP  
 # Vertical line at point 0 on the x-axis
 abline(v = 0, col = "grey", lty = 1)
 
-points(wb3[1,],jitter(rep(1,wsp), factor = 3),col=alpha(c("gray60","dodgerblue"),.3)[cc1_b3],pch=19, cex= sps)
-points(sb3[1,],jitter(rep(2,ssp), factor = 3),col=alpha(c("gray60","dodgerblue"),.3)[cc2_b3],pch=19, cex= sps)
-points(lb3[1,],jitter(rep(3,lsp), factor = 3),col=alpha(c("gray60","dodgerblue"),.3)[cc3_b3],pch=19, cex= sps)
-points(db3[1,],jitter(rep(4,dsp), factor = 3),col=alpha(c("gray60","dodgerblue"),.3)[cc4_b3],pch=19, cex= sps)
-points(cb3[1,],jitter(rep(5,csp), factor = 3),col=alpha(c("gray60","dodgerblue"),.3)[cc5_b3],pch=19, cex= sps)
+points(wb3[1,],jitter(rep(1,wsp), factor = 3),col=alpha(c("gray60","dodgerblue"),.2)[cc1_b3],pch=19, cex= sps)
+points(sb3[1,],jitter(rep(2,ssp), factor = 3),col=alpha(c("gray60","dodgerblue"),.2)[cc2_b3],pch=19, cex= sps)
+points(lb3[1,],jitter(rep(3,lsp), factor = 3),col=alpha(c("gray60","dodgerblue"),.2)[cc3_b3],pch=19, cex= sps)
+points(db3[1,],jitter(rep(4,dsp), factor = 3),col=alpha(c("gray60","dodgerblue"),.2)[cc4_b3],pch=19, cex= sps)
+points(cb3[1,],jitter(rep(5,csp), factor = 3),col=alpha(c("gray60","dodgerblue"),.2)[cc5_b3],pch=19, cex= sps)
 
 #title(main = "(i) Effect of spring min temperature on peak", cex.main = tis)
 mtext("(c) Spring min temperature (MO)", side = 3, line = 0.3, adj = 0, cex = tis)
@@ -694,7 +697,8 @@ for (i in 1:length(mus)) {
     angle = 180,
     code = 3,
     length = 0.05,
-    col = "darkorange"
+    col = "darkorange",
+    lwd = 15
   )
 }
 
@@ -703,11 +707,11 @@ axis(2, at = 1:length(mus), labels = c("WA      ", "SV      ", "LC      ", "DP  
 # Vertical line at point 0 on the x-axis
 abline(v = 0, col = "grey", lty = 1)
 
-points(wb7[1,],jitter(rep(1,wsp), factor = 3),col=alpha(c("gray60","dodgerblue"),.3)[cc1_b7],pch=19, cex= sps)
-points(sb7[1,],jitter(rep(2,ssp), factor = 3),col=alpha(c("gray60","dodgerblue"),.3)[cc2_b7],pch=19, cex= sps)
-points(lb7[1,],jitter(rep(3,lsp), factor = 3),col=alpha(c("gray60","dodgerblue"),.3)[cc3_b7],pch=19, cex= sps)
-points(db7[1,],jitter(rep(4,dsp), factor = 3),col=alpha(c("gray60","dodgerblue"),.3)[cc4_b7],pch=19, cex= sps)
-points(cb7[1,],jitter(rep(5,csp), factor = 3),col=alpha(c("gray60","dodgerblue"),.3)[cc5_b7],pch=19, cex= sps)
+points(wb7[1,],jitter(rep(1,wsp), factor = 3),col=alpha(c("gray60","dodgerblue"),.2)[cc1_b7],pch=19, cex= sps)
+points(sb7[1,],jitter(rep(2,ssp), factor = 3),col=alpha(c("gray60","dodgerblue"),.2)[cc2_b7],pch=19, cex= sps)
+points(lb7[1,],jitter(rep(3,lsp), factor = 3),col=alpha(c("gray60","dodgerblue"),.2)[cc3_b7],pch=19, cex= sps)
+points(db7[1,],jitter(rep(4,dsp), factor = 3),col=alpha(c("gray60","dodgerblue"),.2)[cc4_b7],pch=19, cex= sps)
+points(cb7[1,],jitter(rep(5,csp), factor = 3),col=alpha(c("gray60","dodgerblue"),.2)[cc5_b7],pch=19, cex= sps)
 
 #title(main = "(a) Effect of spring max temperature on timing", cex.main = tis)
 mtext("(d) Spring max temperature (TO)", side = 3, line = 0.3, adj = 0, cex = tis)
@@ -741,7 +745,8 @@ for (i in 1:length(mus)) {
     angle = 180,
     code = 3,
     length = 0.05,
-    col = "darkorange"
+    col = "darkorange",
+    lwd = 15
   )
 }
 
@@ -750,11 +755,11 @@ axis(2, at = 1:length(mus), labels = c("WA      ", "SV      ", "LC      ", "DP  
 # Draw a vertical line at point 0 on the x-axis
 abline(v = 0, col = "grey", lty = 1)
 
-points(wb9[1,],jitter(rep(1,wsp), factor = 3),col=alpha(c("gray60","dodgerblue"),.3)[cc1_b9],pch=19, cex= sps)
-points(sb9[1,],jitter(rep(2,ssp), factor = 3),col=alpha(c("gray60","dodgerblue"),.3)[cc2_b9],pch=19, cex= sps)
-points(lb9[1,],jitter(rep(3,lsp), factor = 3),col=alpha(c("gray60","dodgerblue"),.3)[cc3_b9],pch=19, cex= sps)
-points(db9[1,],jitter(rep(4,dsp), factor = 3),col=alpha(c("gray60","dodgerblue"),.3)[cc4_b9],pch=19, cex= sps)
-points(cb9[1,],jitter(rep(5,csp), factor = 3),col=alpha(c("gray60","dodgerblue"),.3)[cc5_b9],pch=19, cex= sps)
+points(wb9[1,],jitter(rep(1,wsp), factor = 3),col=alpha(c("gray60","dodgerblue"),.2)[cc1_b9],pch=19, cex= sps)
+points(sb9[1,],jitter(rep(2,ssp), factor = 3),col=alpha(c("gray60","dodgerblue"),.2)[cc2_b9],pch=19, cex= sps)
+points(lb9[1,],jitter(rep(3,lsp), factor = 3),col=alpha(c("gray60","dodgerblue"),.2)[cc3_b9],pch=19, cex= sps)
+points(db9[1,],jitter(rep(4,dsp), factor = 3),col=alpha(c("gray60","dodgerblue"),.2)[cc4_b9],pch=19, cex= sps)
+points(cb9[1,],jitter(rep(5,csp), factor = 3),col=alpha(c("gray60","dodgerblue"),.2)[cc5_b9],pch=19, cex= sps)
 
 #title(main = "(d) Effect of winter precipitation on timing", cex.main = tis)
 mtext("(e) Winter precipitation (TO)", side = 3, line = 0.3, adj = 0, cex = tis)
@@ -787,7 +792,8 @@ for (i in 1:length(mus)) {
     angle = 180,
     code = 3,
     length = 0.05,
-    col = "darkorange"
+    col = "darkorange",
+    lwd = 15
   )
 }
 
@@ -796,11 +802,11 @@ axis(2, at = 1:length(mus), labels = c("WA      ", "SV      ", "LC      ", "DP  
 # Vertical line at point 0 on the x-axis
 abline(v = 0, col = "grey", lty = 1)
 
-points(wb11[1,],jitter(rep(1,wsp), factor = 3),col=alpha(c("gray60","dodgerblue"),.3)[cc1_b11],pch=19, cex= sps)
-points(sb11[1,],jitter(rep(2,ssp), factor = 3),col=alpha(c("gray60","dodgerblue"),.3)[cc2_b11],pch=19, cex= sps)
-points(lb11[1,],jitter(rep(3,lsp), factor = 3),col=alpha(c("gray60","dodgerblue"),.3)[cc3_b11],pch=19, cex= sps)
-points(db11[1,],jitter(rep(4,dsp), factor = 3),col=alpha(c("gray60","dodgerblue"),.3)[cc4_b11],pch=19, cex= sps)
-points(cb11[1,],jitter(rep(5,csp), factor = 3),col=alpha(c("gray60","dodgerblue"),.3)[cc5_b11],pch=19, cex= sps)
+points(wb11[1,],jitter(rep(1,wsp), factor = 3),col=alpha(c("gray60","dodgerblue"),.2)[cc1_b11],pch=19, cex= sps)
+points(sb11[1,],jitter(rep(2,ssp), factor = 3),col=alpha(c("gray60","dodgerblue"),.2)[cc2_b11],pch=19, cex= sps)
+points(lb11[1,],jitter(rep(3,lsp), factor = 3),col=alpha(c("gray60","dodgerblue"),.2)[cc3_b11],pch=19, cex= sps)
+points(db11[1,],jitter(rep(4,dsp), factor = 3),col=alpha(c("gray60","dodgerblue"),.2)[cc4_b11],pch=19, cex= sps)
+points(cb11[1,],jitter(rep(5,csp), factor = 3),col=alpha(c("gray60","dodgerblue"),.2)[cc5_b11],pch=19, cex= sps)
 
 #title(main = "(g) Effect of spring min temperature on timing", cex.main = tis)
 mtext("(f) Spring min temperature (TO)", side = 3, line = 0.3, adj = 0, cex = tis)
@@ -834,7 +840,8 @@ for (i in 1:length(mus)) {
     angle = 180,
     code = 3,
     length = 0.05,
-    col = "darkorange"
+    col = "darkorange",
+    lwd = 15
   )
 }
 
@@ -843,11 +850,11 @@ axis(2, at = 1:length(mus), labels = c("WA      ", "SV      ", "LC      ", "DP  
 # Vertical line at point 0 on the x-axis
 abline(v = 0, col = "grey", lty = 1)
 
-points(wb8[1,],jitter(rep(1,wsp), factor = 3),col=alpha(c("gray60","dodgerblue"),.3)[cc1_b8],pch=19, cex= sps)
-points(sb8[1,],jitter(rep(2,ssp), factor = 3),col=alpha(c("gray60","dodgerblue"),.3)[cc2_b8],pch=19, cex= sps)
-points(lb8[1,],jitter(rep(3,lsp), factor = 3),col=alpha(c("gray60","dodgerblue"),.3)[cc3_b8],pch=19, cex= sps)
-points(db8[1,],jitter(rep(4,dsp), factor = 3),col=alpha(c("gray60","dodgerblue"),.3)[cc4_b8],pch=19, cex= sps)
-points(cb8[1,],jitter(rep(5,csp), factor = 3),col=alpha(c("gray60","dodgerblue"),.3)[cc5_b8],pch=19, cex= sps)
+points(wb8[1,],jitter(rep(1,wsp), factor = 3),col=alpha(c("gray60","dodgerblue"),.2)[cc1_b8],pch=19, cex= sps)
+points(sb8[1,],jitter(rep(2,ssp), factor = 3),col=alpha(c("gray60","dodgerblue"),.2)[cc2_b8],pch=19, cex= sps)
+points(lb8[1,],jitter(rep(3,lsp), factor = 3),col=alpha(c("gray60","dodgerblue"),.2)[cc3_b8],pch=19, cex= sps)
+points(db8[1,],jitter(rep(4,dsp), factor = 3),col=alpha(c("gray60","dodgerblue"),.2)[cc4_b8],pch=19, cex= sps)
+points(cb8[1,],jitter(rep(5,csp), factor = 3),col=alpha(c("gray60","dodgerblue"),.2)[cc5_b8],pch=19, cex= sps)
 
 #title(main = "(b) Effect of spring max temperature on length", cex.main = tis)
 mtext("(g) Spring max temperature (LO)", side = 3, line = 0.3, adj = 0, cex = tis)
@@ -880,7 +887,8 @@ for (i in 1:length(mus)) {
     angle = 180,
     code = 3,
     length = 0.05,
-    col = "darkorange"
+    col = "darkorange",
+    lwd = 15
   )
 }
 
@@ -890,11 +898,11 @@ axis(2, at = 1:length(mus), labels = c("WA      ", "SV      ", "LC      ", "DP  
 abline(v = 0, col = "grey", lty = 1)
 
 
-points(wb10[1,],jitter(rep(1,wsp), factor = 3),col=alpha(c("gray60","dodgerblue"),.3)[cc1_b10],pch=19, cex= sps)
-points(sb10[1,],jitter(rep(2,ssp), factor = 3),col=alpha(c("gray60","dodgerblue"),.3)[cc2_b10],pch=19, cex= sps)
-points(lb10[1,],jitter(rep(3,lsp), factor = 3),col=alpha(c("gray60","dodgerblue"),.3)[cc3_b10],pch=19, cex= sps)
-points(db10[1,],jitter(rep(4,dsp), factor = 3),col=alpha(c("gray60","dodgerblue"),.3)[cc4_b10],pch=19, cex= sps)
-points(cb10[1,],jitter(rep(5,csp), factor = 3),col=alpha(c("gray60","dodgerblue"),.3)[cc5_b10],pch=19, cex= sps)
+points(wb10[1,],jitter(rep(1,wsp), factor = 3),col=alpha(c("gray60","dodgerblue"),.2)[cc1_b10],pch=19, cex= sps)
+points(sb10[1,],jitter(rep(2,ssp), factor = 3),col=alpha(c("gray60","dodgerblue"),.2)[cc2_b10],pch=19, cex= sps)
+points(lb10[1,],jitter(rep(3,lsp), factor = 3),col=alpha(c("gray60","dodgerblue"),.2)[cc3_b10],pch=19, cex= sps)
+points(db10[1,],jitter(rep(4,dsp), factor = 3),col=alpha(c("gray60","dodgerblue"),.2)[cc4_b10],pch=19, cex= sps)
+points(cb10[1,],jitter(rep(5,csp), factor = 3),col=alpha(c("gray60","dodgerblue"),.2)[cc5_b10],pch=19, cex= sps)
 
 #title(main = "(e) Effect of winter precipitation on length", cex.main = tis)
 mtext("(h)  Winter precipitation (LO)", side = 3, line = 0.3, adj = 0, cex = tis)
@@ -930,7 +938,8 @@ for (i in 1:length(mus)) {
     angle = 180,
     code = 3,
     length = 0.05,
-    col = "darkorange"
+    col = "darkorange",
+    lwd = 15
   )
 }
 
@@ -940,14 +949,12 @@ axis(2, at = 1:length(mus), labels = c("WA      ", "SV      ", "LC      ", "DP  
 abline(v = 0, col = "grey", lty = 1)
 
 
-points(wb12[1,],jitter(rep(1,wsp), factor = 3),col=alpha(c("gray60","dodgerblue"),.3)[cc1_b12],pch=19, cex= sps)
-points(sb12[1,],jitter(rep(2,ssp), factor = 3),col=alpha(c("gray60","dodgerblue"),.3)[cc2_b12],pch=19, cex= sps)
-points(lb12[1,],jitter(rep(3,lsp), factor = 3),col=alpha(c("gray60","dodgerblue"),.3)[cc3_b12],pch=19, cex= sps)
-points(db12[1,],jitter(rep(4,dsp), factor = 3),col=alpha(c("gray60","dodgerblue"),.3)[cc4_b12],pch=19, cex= sps)
-points(cb12[1,],jitter(rep(5,csp), factor = 3),col=alpha(c("gray60","dodgerblue"),.3)[cc5_b12],pch=19, cex= sps)
+points(wb12[1,],jitter(rep(1,wsp), factor = 3),col=alpha(c("gray60","dodgerblue"),.2)[cc1_b12],pch=19, cex= sps)
+points(sb12[1,],jitter(rep(2,ssp), factor = 3),col=alpha(c("gray60","dodgerblue"),.2)[cc2_b12],pch=19, cex= sps)
+points(lb12[1,],jitter(rep(3,lsp), factor = 3),col=alpha(c("gray60","dodgerblue"),.2)[cc3_b12],pch=19, cex= sps)
+points(db12[1,],jitter(rep(4,dsp), factor = 3),col=alpha(c("gray60","dodgerblue"),.2)[cc4_b12],pch=19, cex= sps)
+points(cb12[1,],jitter(rep(5,csp), factor = 3),col=alpha(c("gray60","dodgerblue"),.2)[cc5_b12],pch=19, cex= sps)
 
 #title(main = "(h) Effect of spring min temperature on length", cex.main = tis)
 mtext("(i) Spring min temperature (LO)", side = 3, line = 0.3, adj = 0, cex = tis)
-
-dev.off()
 

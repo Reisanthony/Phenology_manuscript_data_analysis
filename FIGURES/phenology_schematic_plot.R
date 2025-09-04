@@ -50,7 +50,7 @@ text(-3, 0.4, "Probability of occurrence", col = "black", srt = 90, cex = 1.5)
 text(30, -0.09, "Ordinal day", col = "black", cex = 1.5)
 
 # Add a legend
-legend("topright", legend = c("Decreased midseason occurrence (-)", "Increased midseason occurrence (+)"),
+legend("topright", legend = c("Decreased mid-season occurrence (-)", "Increased mid-season occurrence (+)"),
        col = c(cols[1], cols[3]), lwd = 2, cex = 1.4, bty="n")
 
 #title(main= "(c) Probability of occurrence",cex.main=1.5)
@@ -93,7 +93,7 @@ text(-3, 0.4, "Probability of occurrence", col = "black", srt = 90, cex = 1.5)
 text(30, -0.09, "Ordinal day", col = "black", cex = 1.5)
 
 # Add a legend
-legend("topright", legend = c("Earlier timing (-)",  "Later timing (+)"),
+legend("top", legend = c("Earlier timing (-)",  "Later timing (+)"),
        col = c(cols[1],cols[3]), lwd = 2, cex = 1.4, bty="n")
 
 #title(main= "(a) Timing of occurrence",cex.main=1.5)
@@ -153,7 +153,7 @@ mtext("(c) LO", side = 3, line = 0.5, adj = 0.1, cex = 1.5)
 
 
 #DONNER PASS
-load('SPRINGMAXTEMP_WINTPRCP_SPRINGTEMP_ORDDATE_and_YEAR_Donner Pass.rdat')
+load('/uufs/chpc.utah.edu/common/home/gompert-group2/projects/MontaneButterfliesLTREB/Anthony_MontaneButterfliesLTREB/Newanalysis_LTREB/SPRINGMAXTEMP_WINTPRCP_SPRINGTEMP_ORDDATE_and_YEAR_Donner Pass.rdat')
 
 pa<-extract(fit,"pp")
 dim(pa[[1]])
@@ -255,3 +255,4 @@ text(max(sub_dat[a, 18])-45, 0.95, paste("TO =", be[2], "\nLO =", be[3]), cex = 
 
 
 dev.off()
+
